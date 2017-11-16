@@ -56,7 +56,7 @@ The repository contains the most detailed framework comparison that is out there
 |---|---|---|---|---|----|----|----|
 | Beego | 12,908 | 2,923 | 362 | 1,593 | 2012  | 2017-11-13 | [@astaxie](https://github.com/astaxie) |
 | Gin | 12,875 | 1,503 | 113 |  601 |  2014 | 2017-11-13 | [@manucorporat](https://github.com/manucorporat) |
-| Revel | 9,059 | 1,185 | 39 |  721 | 2011 | 2017-11-06 | [@robfig](https:/github.com/robfig) |
+| Revel | 9,059 | 1,185 | 39 |  721 | 2011 | 2017-11-06 | [@robfig](https://github.com/robfig) |
 | Echo | 8,655 | 750 | 72 |  611 |  2015 | 2017-11-12 | [@vishr](https://github.com/vishr) |
 | Iris | 8,134 | 853 | 2 |  695 | 2016 | 2017-11-10 | [@kataras](https://github.com/kataras) |
 | Buffalo | 1,835 | 134 | 29 |  321 |  2014 | 2017-11-13 | [@markbates](https://github.com/markbates) |
