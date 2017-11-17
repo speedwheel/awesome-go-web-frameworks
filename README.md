@@ -24,10 +24,6 @@ This repository has all the necessary information to help developers learn more 
 
 The repository contains the most detailed framework comparison that is out there, by comparing the the most known web frameworks from as many angles as possible: popularity, support and built'n features:
 
-**Iris**: _The fastest web framework for Go in (THIS) Earth. HTTP/2 Ready to GO. MVC when you need it._
-* https://github.com/kataras/iris
-* https://iris-go.com
-
 **Beego**: _An open-source, high-performance web framework for the Go programming language._
 * https://github.com/astaxie/beego
 * https://beego.me
@@ -43,6 +39,10 @@ The repository contains the most detailed framework comparison that is out there
 **Gin**: _HTTP web framework written in Go (Golang). It features a Martini-like API with much better performance._
 * https://github.com/gin-gonic/gin
 * https://gin-gonic.github.io/gin
+
+**Iris**: _The fastest web framework for Go in (THIS) Earth. HTTP/2 Ready to GO. MVC when you need it._
+* https://github.com/kataras/iris
+* https://iris-go.com
 
 **Revel**: _A high productivity, full-stack web framework for the Go language._
 * https://github.com/revel/revel
@@ -65,11 +65,11 @@ The repository contains the most detailed framework comparison that is out there
 
 Name | Examples | Reference | Real time support |
 |---|:---:|---|---|
+| Iris | 92 | https://github.com/kataras/iris/tree/master/_examples | [rocket chat](https://chat.iris-go.com) |
 | Buffalo | 6 | https://gobuffalo.io/docs/installation | [slack](https://gophers.slack.com/messages/buffalo/) |
 | Beego | 49 | https://beego.me/docs | |
 | Echo | 20 | https://echo.labstack.com/cookbook/hello-world | |
 | Gin | 15 | https://github.com/gin-gonic/gin/tree/master/examples | [gitter](https://gitter.im/gin-gonic/gin) |
-| Iris | 92 | https://github.com/kataras/iris/tree/master/_examples | [rocket chat](https://chat.iris-go.com) |
 | Revel | 6 | http://revel.github.io/examples/index.html | [gitter](https://gitter.im/revel/community) |
 
 Great job by astaxie and kataras here, hopfully and the other frameworks will catch up with more examples, at least for me, if I switch to a new framework, that's the most resourceful place to quickly grasp as much information as possible. An example it's like 1000 words.
