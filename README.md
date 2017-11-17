@@ -24,6 +24,10 @@ This repository has all the necessary information to help developers learn more 
 
 The repository contains the most detailed framework comparison that is out there, by comparing the the most known web frameworks from as many angles as possible: popularity, support and built'n features:
 
+**Iris**: _The fastest web framework for Go in (THIS) Earth. HTTP/2 Ready to GO. MVC when you need it._
+* https://github.com/kataras/iris
+* https://iris-go.com
+
 **Beego**: _An open-source, high-performance web framework for the Go programming language._
 * https://github.com/astaxie/beego
 * https://beego.me
@@ -39,10 +43,6 @@ The repository contains the most detailed framework comparison that is out there
 **Gin**: _HTTP web framework written in Go (Golang). It features a Martini-like API with much better performance._
 * https://github.com/gin-gonic/gin
 * https://gin-gonic.github.io/gin
-
-**Iris**: _The fastest web framework for Go in (THIS) Earth. HTTP/2 Ready to GO. MVC when you need it._
-* https://github.com/kataras/iris
-* https://iris-go.com
 
 **Revel**: _A high productivity, full-stack web framework for the Go language._
 * https://github.com/revel/revel
