@@ -66,11 +66,11 @@ The repository contains the most detailed framework comparison that is out there
 Name | Examples | Reference | Real time support |
 |---|:---:|---|---|
 | Iris | 92 | https://github.com/kataras/iris/tree/master/_examples | [rocket chat](https://chat.iris-go.com) |
-| Buffalo | 6 | https://gobuffalo.io/docs/installation | [slack](https://gophers.slack.com/messages/buffalo/) |
 | Beego | 49 | https://beego.me/docs | |
 | Echo | 20 | https://echo.labstack.com/cookbook/hello-world | |
 | Gin | 15 | https://github.com/gin-gonic/gin/tree/master/examples | [gitter](https://gitter.im/gin-gonic/gin) |
 | Revel | 6 | http://revel.github.io/examples/index.html | [gitter](https://gitter.im/revel/community) |
+| Buffalo | 6 | https://gobuffalo.io/docs/installation | [slack](https://gophers.slack.com/messages/buffalo/) |
 
 Great job by astaxie and kataras here, hopfully and the other frameworks will catch up with more examples, at least for me, if I switch to a new framework, that's the most resourceful place to quickly grasp as much information as possible. An example it's like 1000 words.
 
