@@ -40,7 +40,7 @@ The repository contains the most detailed framework comparison that is out there
 * https://github.com/gin-gonic/gin
 * https://gin-gonic.github.io/gin
 
-**Iris**: _The fastest web framework for Go in (THIS) Earth. HTTP/2 Ready to GO. MVC when you need it._
+**Iris**: _The fastest web framework for Go in The Universe. MVC fully featured. Embrace the future today_
 * https://github.com/kataras/iris
 * https://iris-go.com
 
