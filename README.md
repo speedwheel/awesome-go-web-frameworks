@@ -52,16 +52,18 @@ The repository contains the most detailed framework comparison that is out there
 
 > Sorted by the popularity (stars)
 
-| Name | Stars | Forks | Issues Open | Issues Closed  | Birth Year | Latest Update | Author |
-|---|---|---|---|---|----|----|----|
-| Gin | 30,054 | 3,472 | 155 |  1,045 |  2014 | 2019-08-10 | [@manucorporat](https://github.com/manucorporat) |
-| Beego | 21,502 | 4,353 | 647 | 1,878 | 2012  | 2019-07-05 | [@astaxie](https://github.com/astaxie) |
-| Iris | 15,741 | 1,688 | 15 |  749 | 2016 | 2019-08-10 | [@kataras](https://github.com/kataras) |
-| Echo | 14,713 | 1,343 | 23 |  855 |  2015 | 2019-08-08 | [@vishr](https://github.com/vishr) |
-| Revel | 11,250 | 1,338 | 72 |  826 | 2011 | 2018-10-30 | [@revel](https://github.com/revel) |
-| Buffalo | 4,778 | 372 | 49 |  667 |  2014 | 2019-08-10 | [@markbates](https://github.com/markbates) |
+| Name    | Stars  | Forks | Opened / closed issues | Birth Year | Latest Update | Active contributors | Author                                           |
+|---------|-------:|------:|:----------------------:|:----------:|:-------------:|:-------------------:|--------------------------------------------------|
+| Gin     | 30,054 | 3,472 | 155 / 1,045            | 2014       | 2019-08-10    | 9                   | [@manucorporat](https://github.com/manucorporat) |
+| Beego   | 21,502 | 4,353 | 647 / 1,878            | 2012       | 2019-07-05    | 22                  | [@astaxie](https://github.com/astaxie)           |
+| Iris    | 15,741 | 1,688 |  15 /   749            | 2016       | 2019-08-10    | 5                   | [@kataras](https://github.com/kataras)           |
+| Echo    | 14,713 | 1,343 |  23 /   855            | 2015       | 2019-08-08    | 3                   | [@vishr](https://github.com/vishr)               |
+| Revel   | 11,250 | 1,338 |  72 /   826            | 2011       | 2018-10-30    | 15                  | [@revel](https://github.com/revel)               |
+| Buffalo |  4,778 |   372 |  49 /   667            | 2014       | 2019-08-10    | 6                   | [@markbates](https://github.com/markbates)       |
 
 "Latest update" column — is a date of latest commit in the master branch.
+
+"Active contributors" column — is a count of contributors that created ten or more commits.
 
 ## Learning Curve
 
