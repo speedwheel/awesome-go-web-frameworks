@@ -25,28 +25,29 @@ This repository has all the necessary information to help developers learn more 
 The repository contains the most detailed framework comparison that is out there, by comparing the the most known web frameworks from as many angles as possible: popularity, support and built'n features:
 
 **Beego**: _An open-source, high-performance web framework for the Go programming language._
-* https://github.com/astaxie/beego
-* https://beego.me
 
-**Buffalo**: _Rapid Web Development w/ Go._
-* https://github.com/gobuffalo/buffalo
-* https://gobuffalo.io
+- [https://github.com/astaxie/beego](https://github.com/astaxie/beego)
+- [https://beego.me](https://beego.me)
 
 **Echo**: _A high performance, minimalist Go web framework._
-* https://github.com/labstack/echo
-* https://echo.labstack.com
+
+- [https://github.com/labstack/echo](https://github.com/labstack/echo)
+- [https://echo.labstack.com](https://echo.labstack.com)
 
 **Gin**: _HTTP web framework written in Go (Golang). It features a Martini-like API with much better performance._
-* https://github.com/gin-gonic/gin
-* https://gin-gonic.github.io/gin
+
+- [https://github.com/gin-gonic/gin](https://github.com/gin-gonic/gin)
+- [https://gin-gonic.github.io/gin](https://gin-gonic.github.io/gin)
 
 **Iris**: _The fastest web framework for Go in The Universe. MVC fully featured. Embrace the future today_
-* https://github.com/kataras/iris
-* https://iris-go.com
+
+- [https://github.com/kataras/iris](https://github.com/kataras/iris)
+- [https://iris-go.com](https://iris-go.com)
 
 **Revel**: _A high productivity, full-stack web framework for the Go language._
-* https://github.com/revel/revel
-* https://revel.github.io
+
+- [https://github.com/revel/revel](https://github.com/revel/revel)
+- [https://revel.github.io](https://revel.github.io)
 
 ## Popularity
 
@@ -54,23 +55,21 @@ The repository contains the most detailed framework comparison that is out there
 
 | Name | Stars | Forks | Issues Open | Issues Closed  | Birth Year | Latest Update | Author |
 |---|---|---|---|---|----|----|----|
-| Gin | 24,181 | 2,835 | 129 |  919 |  2014 | 2019-02-04 | [@manucorporat](https://github.com/manucorporat) |
-| Beego | 18,812 | 3,884 | 545 | 1,806 | 2012  | 2019-02-04 | [@astaxie](https://github.com/astaxie) |
-| Iris | 13,565 | 1,406 | 19 |  621 | 2016 | 2019-01-16 | [@kataras](https://github.com/kataras) |
-| Echo | 12,861 | 1,141 | 14 |  779 |  2015 | 2019-02-07 | [@vishr](https://github.com/vishr) |
-| Revel | 10,723 | 1,302 | 58 |  806 | 2011 | 2018-10-30 | [@revel](https://github.com/revel) |
-| Buffalo | 3,935 | 320 | 51 |  599 |  2014 | 2019-01-31 | [@markbates](https://github.com/markbates) |
+| Gin | 35,802 | 4,135 | 196 |  1136 |  2014 | 2019-02-04 | [@manucorporat](https://github.com/manucorporat) |
+| Beego | 23,336 | 4,784 | 761 | 1,902 | 2012  | 2019-02-04 | [@astaxie](https://github.com/astaxie) |
+| Iris | 17,596 | 2,406 | 7 | 498 | 2016 | 2019-01-16 | [@kataras](https://github.com/kataras) |
+| Echo | 16,595 | 1,541 | 35 | 932 |  2015 | 2019-02-07 | [@vishr](https://github.com/vishr) |
+| Revel | 11,595 | 1,402 | 81 | 835 | 2011 | 2018-10-30 | [@revel](https://github.com/revel) |
 
 ## Learning Curve
 
 Name | Examples | Reference | Real time support |
 |---|:---:|---|---|
-| Iris | 92 | https://github.com/kataras/iris/tree/master/_examples | [rocket chat](https://chat.iris-go.com) |
-| Beego | 49 | https://beego.me/docs | |
-| Echo | 20 | https://echo.labstack.com/cookbook/hello-world | |
-| Gin | 15 | https://github.com/gin-gonic/gin/tree/master/examples | [gitter](https://gitter.im/gin-gonic/gin) |
-| Revel | 6 | http://revel.github.io/examples/index.html | [gitter](https://gitter.im/revel/community) |
-| Buffalo | 6 | https://gobuffalo.io/docs/installation | [slack](https://gophers.slack.com/messages/buffalo/) |
+| Iris | 100 | [Examples](https://github.com/kataras/iris/tree/master/_examples) | [rocket chat](https://chat.iris-go.com) |
+| Beego | 49 | [Examples](https://beego.me/docs) | |
+| Echo | 20 | [Examples](https://echo.labstack.com/cookbook/hello-world) | |
+| Gin | 19 | [Examples](https://github.com/gin-gonic/examples) | [gitter](https://gitter.im/gin-gonic/gin) |
+| Revel | 6 | [Examples](http://revel.github.io/examples/index.html) | [gitter](https://gitter.im/revel/community) |
 
 Great job by astaxie and kataras here, hopfully and the other frameworks will catch up with more examples, at least for me, if I switch to a new framework, that's the most resourceful place to quickly grasp as much information as possible. An example it's like 1000 words.
 
@@ -78,42 +77,42 @@ Great job by astaxie and kataras here, hopfully and the other frameworks will ca
 
 > Sorted by the most to less featured
 
-| Name |Iris|Beego|Revel|Echo|Gin|Buffalo|
-|:---|:---:|:---:|:---:|:---:|:---:|:---:|
-| Router: Named Path Parameters & Wildcard[*](#router-named-path-parameters--wildcard) | <img height="15" width="15" src="https://github.githubassets.com/images/icons/emoji/unicode/2714.png"> | <img height="15" width="15" src="https://github.githubassets.com/images/icons/emoji/unicode/2714.png"> | <img height="15" width="15" src="https://github.githubassets.com/images/icons/emoji/unicode/2714.png"> | <img height="15" width="15" src="https://github.githubassets.com/images/icons/emoji/unicode/2714.png"> | <img height="15" width="15" src="https://github.githubassets.com/images/icons/emoji/unicode/2714.png"> | <img height="15" width="15" src="https://github.githubassets.com/images/icons/emoji/unicode/2714.png">- |
-| Router: Regex[*](#router-regex) | <img height="15" width="15" src="https://github.githubassets.com/images/icons/emoji/unicode/2714.png"> | <img height="15" width="15" src="https://github.githubassets.com/images/icons/emoji/unicode/2714.png"> | <img height="15" width="15" src="https://github.githubassets.com/images/icons/emoji/unicode/2796.png"> | <img height="15" width="15" src="https://github.githubassets.com/images/icons/emoji/unicode/2796.png">  | <img height="15" width="15" src="https://github.githubassets.com/images/icons/emoji/unicode/2796.png"> | <img height="15" width="15" src="https://github.githubassets.com/images/icons/emoji/unicode/2714.png">- |
-| Router: Grouping[*](#router-grouping) | <img height="15" width="15" src="https://github.githubassets.com/images/icons/emoji/unicode/2714.png"> | ❔ | ❔ | <img height="15" width="15" src="https://github.githubassets.com/images/icons/emoji/unicode/2714.png"> | <img height="15" width="15" src="https://github.githubassets.com/images/icons/emoji/unicode/2714.png"> | <img height="15" width="15" src="https://github.githubassets.com/images/icons/emoji/unicode/2714.png">- |
-| Router: All the above Mixed Without Conflict[*](#all-the-above-mixed-without-conflict) | <img height="15" width="15" src="https://github.githubassets.com/images/icons/emoji/unicode/2714.png"> | <img height="15" width="15" src="https://github.githubassets.com/images/icons/emoji/unicode/2796.png"> | <img height="15" width="15" src="https://github.githubassets.com/images/icons/emoji/unicode/2796.png"> | <img height="15" width="15" src="https://github.githubassets.com/images/icons/emoji/unicode/2796.png"> | <img height="15" width="15" src="https://github.githubassets.com/images/icons/emoji/unicode/2796.png"> | <img height="15" width="15" src="https://github.githubassets.com/images/icons/emoji/unicode/2796.png"> |
-| Router: Custom HTTP Errors[*](#router-custom-http-errors) | <img height="15" width="15" src="https://github.githubassets.com/images/icons/emoji/unicode/2714.png"> | <img height="15" width="15" src="https://github.githubassets.com/images/icons/emoji/unicode/2714.png"> | <img height="15" width="15" src="https://github.githubassets.com/images/icons/emoji/unicode/2714.png"> |  <img height="15" width="15" src="https://github.githubassets.com/images/icons/emoji/unicode/2714.png"> | <img height="15" width="15" src="https://github.githubassets.com/images/icons/emoji/unicode/2796.png"> | <img height="15" width="15" src="https://github.githubassets.com/images/icons/emoji/unicode/2714.png"> |
-| 100% compatible with net/http[*](#100-compatible-with-nethttp) | <img height="15" width="15" src="https://github.githubassets.com/images/icons/emoji/unicode/2714.png"> | <img height="15" width="15" src="https://github.githubassets.com/images/icons/emoji/unicode/2796.png"> | <img height="15" width="15" src="https://github.githubassets.com/images/icons/emoji/unicode/2796.png">  |  ❔ | <img height="15" width="15" src="https://github.githubassets.com/images/icons/emoji/unicode/2714.png">  | <img height="15" width="15" src="https://github.githubassets.com/images/icons/emoji/unicode/2714.png"> |
-| Middleware ecosystem[*](#middleware-ecosystem) | <img height="15" width="15" src="https://github.githubassets.com/images/icons/emoji/unicode/2714.png"> | <img height="15" width="15" src="https://github.githubassets.com/images/icons/emoji/unicode/2714.png"> | <img height="15" width="15" src="https://github.githubassets.com/images/icons/emoji/unicode/2796.png"> | <img height="15" width="15" src="https://github.githubassets.com/images/icons/emoji/unicode/2714.png"> | <img height="15" width="15" src="https://github.githubassets.com/images/icons/emoji/unicode/2714.png"> | <img height="15" width="15" src="https://github.githubassets.com/images/icons/emoji/unicode/2796.png"> |
-| Sinatra-like API[*](#sinatra-like-api) | <img height="15" width="15" src="https://github.githubassets.com/images/icons/emoji/unicode/2714.png"> | <img height="15" width="15" src="https://github.githubassets.com/images/icons/emoji/unicode/2714.png"> | <img height="15" width="15" src="https://github.githubassets.com/images/icons/emoji/unicode/2796.png"> | <img height="15" width="15" src="https://github.githubassets.com/images/icons/emoji/unicode/2714.png"> | <img height="15" width="15" src="https://github.githubassets.com/images/icons/emoji/unicode/2714.png"> | <img height="15" width="15" src="https://github.githubassets.com/images/icons/emoji/unicode/2796.png"> |
-| Server: Automatic HTTPS[*](#server-automatic-https) | <img height="15" width="15" src="https://github.githubassets.com/images/icons/emoji/unicode/2714.png"> | ❔| <img height="15" width="15" src="https://github.githubassets.com/images/icons/emoji/unicode/2796.png"> | <img height="15" width="15" src="https://github.githubassets.com/images/icons/emoji/unicode/2714.png"> | <img height="15" width="15" src="https://github.githubassets.com/images/icons/emoji/unicode/2796.png"> | <img height="15" width="15" src="https://github.githubassets.com/images/icons/emoji/unicode/2796.png"> |
-| Server: Gracefully Shutdown[*](#server-gracefully-shutdown) | <img height="15" width="15" src="https://github.githubassets.com/images/icons/emoji/unicode/2714.png"> | <img height="15" width="15" src="https://github.githubassets.com/images/icons/emoji/unicode/2714.png"> | <img height="15" width="15" src="https://github.githubassets.com/images/icons/emoji/unicode/2714.png"> | <img height="15" width="15" src="https://github.githubassets.com/images/icons/emoji/unicode/2796.png"> | <img height="15" width="15" src="https://github.githubassets.com/images/icons/emoji/unicode/2796.png"> | <img height="15" width="15" src="https://github.githubassets.com/images/icons/emoji/unicode/2796.png"> |
-| Server: Multi Listeners[*](#server-multi-listeners) | <img height="15" width="15" src="https://github.githubassets.com/images/icons/emoji/unicode/2714.png"> | <img height="15" width="15" src="https://github.githubassets.com/images/icons/emoji/unicode/2796.png"> | <img height="15" width="15" src="https://github.githubassets.com/images/icons/emoji/unicode/2796.png"> | <img height="15" width="15" src="https://github.githubassets.com/images/icons/emoji/unicode/2796.png"> | <img height="15" width="15" src="https://github.githubassets.com/images/icons/emoji/unicode/2796.png"> | <img height="15" width="15" src="https://github.githubassets.com/images/icons/emoji/unicode/2796.png"> |
-| Full HTTP/2[*](#full-http2) | <img height="15" width="15" src="https://github.githubassets.com/images/icons/emoji/unicode/2714.png"> | ❔| ❔ | <img height="15" width="15" src="https://github.githubassets.com/images/icons/emoji/unicode/2714.png"> | standard | standard |
-| Subdomains[*](#subdomains) | <img height="15" width="15" src="https://github.githubassets.com/images/icons/emoji/unicode/2714.png"> | secondary | secondary |  secondary |  secondary | secondary |
-| Sessions[*](#sessions) | <img height="15" width="15" src="https://github.githubassets.com/images/icons/emoji/unicode/2714.png"> | <img height="15" width="15" src="https://github.githubassets.com/images/icons/emoji/unicode/2714.png"> | <img height="15" width="15" src="https://github.githubassets.com/images/icons/emoji/unicode/2714.png"> | <img height="15" width="15" src="https://github.githubassets.com/images/icons/emoji/unicode/2796.png"> | <img height="15" width="15" src="https://github.githubassets.com/images/icons/emoji/unicode/2796.png"> | secondary |
-| Websockets[*](#websockets) | <img height="15" width="15" src="https://github.githubassets.com/images/icons/emoji/unicode/2714.png"> | <img height="15" width="15" src="https://github.githubassets.com/images/icons/emoji/unicode/2714.png"> | <img height="15" width="15" src="https://github.githubassets.com/images/icons/emoji/unicode/2714.png"> | <img height="15" width="15" src="https://github.githubassets.com/images/icons/emoji/unicode/2796.png"> | <img height="15" width="15" src="https://github.githubassets.com/images/icons/emoji/unicode/2796.png"> | <img height="15" width="15" src="https://github.githubassets.com/images/icons/emoji/unicode/2796.png"> |
-| View (aka Templates) Embedded Into App[*](#view-aka-templates-embedded-into-app) | <img height="15" width="15" src="https://github.githubassets.com/images/icons/emoji/unicode/2714.png"> | <img height="15" width="15" src="https://github.githubassets.com/images/icons/emoji/unicode/2796.png"> | <img height="15" width="15" src="https://github.githubassets.com/images/icons/emoji/unicode/2796.png"> | <img height="15" width="15" src="https://github.githubassets.com/images/icons/emoji/unicode/2796.png"> | <img height="15" width="15" src="https://github.githubassets.com/images/icons/emoji/unicode/2796.png"> | <img height="15" width="15" src="https://github.githubassets.com/images/icons/emoji/unicode/2796.png"> |
-| View Engine: STD[*](#view-engine-std) | <img height="15" width="15" src="https://github.githubassets.com/images/icons/emoji/unicode/2714.png"> | <img height="15" width="15" src="https://github.githubassets.com/images/icons/emoji/unicode/2714.png"> | <img height="15" width="15" src="https://github.githubassets.com/images/icons/emoji/unicode/2714.png"> | <img height="15" width="15" src="https://github.githubassets.com/images/icons/emoji/unicode/2714.png"> | <img height="15" width="15" src="https://github.githubassets.com/images/icons/emoji/unicode/2714.png"> | <img height="15" width="15" src="https://github.githubassets.com/images/icons/emoji/unicode/2796.png"> |
-| View Engine: Pug[*](#view-engine-pug) | <img height="15" width="15" src="https://github.githubassets.com/images/icons/emoji/unicode/2714.png"> | <img height="15" width="15" src="https://github.githubassets.com/images/icons/emoji/unicode/2796.png"> | <img height="15" width="15" src="https://github.githubassets.com/images/icons/emoji/unicode/2796.png"> | <img height="15" width="15" src="https://github.githubassets.com/images/icons/emoji/unicode/2796.png"> | <img height="15" width="15" src="https://github.githubassets.com/images/icons/emoji/unicode/2796.png"> | <img height="15" width="15" src="https://github.githubassets.com/images/icons/emoji/unicode/2796.png"> |
-| View Engine: Django[*](#view-engine-django) | <img height="15" width="15" src="https://github.githubassets.com/images/icons/emoji/unicode/2714.png"> | <img height="15" width="15" src="https://github.githubassets.com/images/icons/emoji/unicode/2796.png"> | <img height="15" width="15" src="https://github.githubassets.com/images/icons/emoji/unicode/2796.png"> | <img height="15" width="15" src="https://github.githubassets.com/images/icons/emoji/unicode/2796.png"> | <img height="15" width="15" src="https://github.githubassets.com/images/icons/emoji/unicode/2796.png"> | <img height="15" width="15" src="https://github.githubassets.com/images/icons/emoji/unicode/2796.png"> |
-| View Engine: Handlebars[*](#view-engine-handlebars) | <img height="15" width="15" src="https://github.githubassets.com/images/icons/emoji/unicode/2714.png"> | <img height="15" width="15" src="https://github.githubassets.com/images/icons/emoji/unicode/2796.png"> | <img height="15" width="15" src="https://github.githubassets.com/images/icons/emoji/unicode/2796.png"> | <img height="15" width="15" src="https://github.githubassets.com/images/icons/emoji/unicode/2796.png"> | <img height="15" width="15" src="https://github.githubassets.com/images/icons/emoji/unicode/2796.png"> | <img height="15" width="15" src="https://github.githubassets.com/images/icons/emoji/unicode/2796.png"> |
-| View Engine: Amber[*](#view-engine-amber) | <img height="15" width="15" src="https://github.githubassets.com/images/icons/emoji/unicode/2714.png"> | <img height="15" width="15" src="https://github.githubassets.com/images/icons/emoji/unicode/2796.png"> | <img height="15" width="15" src="https://github.githubassets.com/images/icons/emoji/unicode/2796.png"> | <img height="15" width="15" src="https://github.githubassets.com/images/icons/emoji/unicode/2796.png"> | <img height="15" width="15" src="https://github.githubassets.com/images/icons/emoji/unicode/2796.png"> | <img height="15" width="15" src="https://github.githubassets.com/images/icons/emoji/unicode/2796.png"> |
-| Renderer: Markdown, JSON, JSONP, XML...[*](#renderer-markdown-json-jsonp-xml) | <img height="15" width="15" src="https://github.githubassets.com/images/icons/emoji/unicode/2714.png"> | <img height="15" width="15" src="https://github.githubassets.com/images/icons/emoji/unicode/2714.png"> | <img height="15" width="15" src="https://github.githubassets.com/images/icons/emoji/unicode/2714.png"> |  <img height="15" width="15" src="https://github.githubassets.com/images/icons/emoji/unicode/2714.png"> |  <img height="15" width="15" src="https://github.githubassets.com/images/icons/emoji/unicode/2714.png"> | <img height="15" width="15" src="https://github.githubassets.com/images/icons/emoji/unicode/2796.png"> |
-| MVC[*](#mvc) | <img height="15" width="15" src="https://github.githubassets.com/images/icons/emoji/unicode/2714.png"> | <img height="15" width="15" src="https://github.githubassets.com/images/icons/emoji/unicode/2714.png">- | generator | <img height="15" width="15" src="https://github.githubassets.com/images/icons/emoji/unicode/2796.png"> | <img height="15" width="15" src="https://github.githubassets.com/images/icons/emoji/unicode/2796.png"> | <img height="15" width="15" src="https://github.githubassets.com/images/icons/emoji/unicode/2796.png"> |
-| Caching[*](#catching) | <img height="15" width="15" src="https://github.githubassets.com/images/icons/emoji/unicode/2714.png">| <img height="15" width="15" src="https://github.githubassets.com/images/icons/emoji/unicode/2714.png"> | <img height="15" width="15" src="https://github.githubassets.com/images/icons/emoji/unicode/2714.png"> |  <img height="15" width="15" src="https://github.githubassets.com/images/icons/emoji/unicode/2796.png"> |  <img height="15" width="15" src="https://github.githubassets.com/images/icons/emoji/unicode/2796.png"> | <img height="15" width="15" src="https://github.githubassets.com/images/icons/emoji/unicode/2796.png"> |
-| File Server[*](#file-server) | <img height="15" width="15" src="https://github.githubassets.com/images/icons/emoji/unicode/2714.png"> | <img height="15" width="15" src="https://github.githubassets.com/images/icons/emoji/unicode/2714.png"> | <img height="15" width="15" src="https://github.githubassets.com/images/icons/emoji/unicode/2714.png"> |  <img height="15" width="15" src="https://github.githubassets.com/images/icons/emoji/unicode/2714.png"> |  <img height="15" width="15" src="https://github.githubassets.com/images/icons/emoji/unicode/2714.png"> | <img height="15" width="15" src="https://github.githubassets.com/images/icons/emoji/unicode/2714.png"> |
-| File Server: Embedded Into App[*](#file-server-embedded-into-app) | <img height="15" width="15" src="https://github.githubassets.com/images/icons/emoji/unicode/2714.png"> | <img height="15" width="15" src="https://github.githubassets.com/images/icons/emoji/unicode/2796.png"> | <img height="15" width="15" src="https://github.githubassets.com/images/icons/emoji/unicode/2796.png"> |  <img height="15" width="15" src="https://github.githubassets.com/images/icons/emoji/unicode/2796.png"> | <img height="15" width="15" src="https://github.githubassets.com/images/icons/emoji/unicode/2796.png"> | <img height="15" width="15" src="https://github.githubassets.com/images/icons/emoji/unicode/2796.png"> |
-| Response can be Modified Many times through lifecycle before sent[*](#response-can-be-modified-many-times-through-lifecycle-before-sent) | <img height="15" width="15" src="https://github.githubassets.com/images/icons/emoji/unicode/2714.png"> | <img height="15" width="15" src="https://github.githubassets.com/images/icons/emoji/unicode/2796.png"> | <img height="15" width="15" src="https://github.githubassets.com/images/icons/emoji/unicode/2796.png"> |  <img height="15" width="15" src="https://github.githubassets.com/images/icons/emoji/unicode/2796.png"> |  <img height="15" width="15" src="https://github.githubassets.com/images/icons/emoji/unicode/2796.png"> | <img height="15" width="15" src="https://github.githubassets.com/images/icons/emoji/unicode/2796.png"> |
-| Gzip[*](#gzip) | <img height="15" width="15" src="https://github.githubassets.com/images/icons/emoji/unicode/2714.png"> | <img height="15" width="15" src="https://github.githubassets.com/images/icons/emoji/unicode/2714.png"> | <img height="15" width="15" src="https://github.githubassets.com/images/icons/emoji/unicode/2714.png"> | middleware | middleware | middleware |
-| Testing Framework[*](#testing-framework) | <img height="15" width="15" src="https://github.githubassets.com/images/icons/emoji/unicode/2714.png"> | <img height="15" width="15" src="https://github.githubassets.com/images/icons/emoji/unicode/2796.png"> | <img height="15" width="15" src="https://github.githubassets.com/images/icons/emoji/unicode/2796.png"> | <img height="15" width="15" src="https://github.githubassets.com/images/icons/emoji/unicode/2796.png"> | <img height="15" width="15" src="https://github.githubassets.com/images/icons/emoji/unicode/2796.png"> | <img height="15" width="15" src="https://github.githubassets.com/images/icons/emoji/unicode/2796.png"> |
-| Typescript Transpiler[*](#typescript-transpiler) | <img height="15" width="15" src="https://github.githubassets.com/images/icons/emoji/unicode/2714.png"> | <img height="15" width="15" src="https://github.githubassets.com/images/icons/emoji/unicode/2796.png"> | <img height="15" width="15" src="https://github.githubassets.com/images/icons/emoji/unicode/2796.png"> | <img height="15" width="15" src="https://github.githubassets.com/images/icons/emoji/unicode/2796.png"> | <img height="15" width="15" src="https://github.githubassets.com/images/icons/emoji/unicode/2796.png"> | <img height="15" width="15" src="https://github.githubassets.com/images/icons/emoji/unicode/2796.png"> |
-| Online Editor[*](#online-editor) | <img height="15" width="15" src="https://github.githubassets.com/images/icons/emoji/unicode/2714.png"> | <img height="15" width="15" src="https://github.githubassets.com/images/icons/emoji/unicode/2796.png"> | <img height="15" width="15" src="https://github.githubassets.com/images/icons/emoji/unicode/2796.png"> | <img height="15" width="15" src="https://github.githubassets.com/images/icons/emoji/unicode/2796.png"> | <img height="15" width="15" src="https://github.githubassets.com/images/icons/emoji/unicode/2796.png"> | <img height="15" width="15" src="https://github.githubassets.com/images/icons/emoji/unicode/2796.png"> |
-| Logging System[*](#logging-system) | <img height="15" width="15" src="https://github.githubassets.com/images/icons/emoji/unicode/2714.png"> | <img height="15" width="15" src="https://github.githubassets.com/images/icons/emoji/unicode/2714.png"> | <img height="15" width="15" src="https://github.githubassets.com/images/icons/emoji/unicode/2714.png"> | <img height="15" width="15" src="https://github.githubassets.com/images/icons/emoji/unicode/2714.png">- | <img height="15" width="15" src="https://github.githubassets.com/images/icons/emoji/unicode/2714.png">- | <img height="15" width="15" src="https://github.githubassets.com/images/icons/emoji/unicode/2796.png"> |
-| Maintenance & Auto-Updates[*](#maintenance--auto-updates) | <img height="15" width="15" src="https://github.githubassets.com/images/icons/emoji/unicode/2714.png"> | <img height="15" width="15" src="https://github.githubassets.com/images/icons/emoji/unicode/2796.png"> | <img height="15" width="15" src="https://github.githubassets.com/images/icons/emoji/unicode/2796.png"> | <img height="15" width="15" src="https://github.githubassets.com/images/icons/emoji/unicode/2796.png"> | <img height="15" width="15" src="https://github.githubassets.com/images/icons/emoji/unicode/2796.png"> | <img height="15" width="15" src="https://github.githubassets.com/images/icons/emoji/unicode/2796.png"> |
-| Performance | ★★★★★ | ★★★ | ★★ | ★★★★★ | ★★★★★ | ★★★ |
+| Name |Iris|Beego|Revel|Echo|Gin|
+|:---|:---:|:---:|:---:|:---:|:---:|
+| Router: Named Path Parameters & Wildcard[*](#router-named-path-parameters--wildcard) | <img height="15" width="15" src="https://github.githubassets.com/images/icons/emoji/unicode/2714.png"> | <img height="15" width="15" src="https://github.githubassets.com/images/icons/emoji/unicode/2714.png"> | <img height="15" width="15" src="https://github.githubassets.com/images/icons/emoji/unicode/2714.png"> | <img height="15" width="15" src="https://github.githubassets.com/images/icons/emoji/unicode/2714.png"> | <img height="15" width="15" src="https://github.githubassets.com/images/icons/emoji/unicode/2714.png"> |
+| Router: Regex[*](#router-regex) | <img height="15" width="15" src="https://github.githubassets.com/images/icons/emoji/unicode/2714.png"> | <img height="15" width="15" src="https://github.githubassets.com/images/icons/emoji/unicode/2714.png"> | <img height="15" width="15" src="https://github.githubassets.com/images/icons/emoji/unicode/2796.png"> | <img height="15" width="15" src="https://github.githubassets.com/images/icons/emoji/unicode/2796.png">  | <img height="15" width="15" src="https://github.githubassets.com/images/icons/emoji/unicode/2796.png"> |
+| Router: Grouping[*](#router-grouping) | <img height="15" width="15" src="https://github.githubassets.com/images/icons/emoji/unicode/2714.png"> | ❔ | ❔ | <img height="15" width="15" src="https://github.githubassets.com/images/icons/emoji/unicode/2714.png"> | <img height="15" width="15" src="https://github.githubassets.com/images/icons/emoji/unicode/2714.png"> |
+| Router: All the above Mixed Without Conflict[*](#all-the-above-mixed-without-conflict) | <img height="15" width="15" src="https://github.githubassets.com/images/icons/emoji/unicode/2714.png"> | <img height="15" width="15" src="https://github.githubassets.com/images/icons/emoji/unicode/2796.png"> | <img height="15" width="15" src="https://github.githubassets.com/images/icons/emoji/unicode/2796.png"> | <img height="15" width="15" src="https://github.githubassets.com/images/icons/emoji/unicode/2796.png"> | <img height="15" width="15" src="https://github.githubassets.com/images/icons/emoji/unicode/2796.png"> |
+| Router: Custom HTTP Errors[*](#router-custom-http-errors) | <img height="15" width="15" src="https://github.githubassets.com/images/icons/emoji/unicode/2714.png"> | <img height="15" width="15" src="https://github.githubassets.com/images/icons/emoji/unicode/2714.png"> | <img height="15" width="15" src="https://github.githubassets.com/images/icons/emoji/unicode/2714.png"> |  <img height="15" width="15" src="https://github.githubassets.com/images/icons/emoji/unicode/2714.png"> | <img height="15" width="15" src="https://github.githubassets.com/images/icons/emoji/unicode/2796.png"> |
+| 100% compatible with net/http[*](#100-compatible-with-nethttp) | <img height="15" width="15" src="https://github.githubassets.com/images/icons/emoji/unicode/2714.png"> | <img height="15" width="15" src="https://github.githubassets.com/images/icons/emoji/unicode/2796.png"> | <img height="15" width="15" src="https://github.githubassets.com/images/icons/emoji/unicode/2796.png">  |  ❔ | <img height="15" width="15" src="https://github.githubassets.com/images/icons/emoji/unicode/2714.png">  |
+| Middleware ecosystem[*](#middleware-ecosystem) | <img height="15" width="15" src="https://github.githubassets.com/images/icons/emoji/unicode/2714.png"> | <img height="15" width="15" src="https://github.githubassets.com/images/icons/emoji/unicode/2714.png"> | <img height="15" width="15" src="https://github.githubassets.com/images/icons/emoji/unicode/2796.png"> | <img height="15" width="15" src="https://github.githubassets.com/images/icons/emoji/unicode/2714.png"> | <img height="15" width="15" src="https://github.githubassets.com/images/icons/emoji/unicode/2714.png"> |
+| Sinatra-like API[*](#sinatra-like-api) | <img height="15" width="15" src="https://github.githubassets.com/images/icons/emoji/unicode/2714.png"> | <img height="15" width="15" src="https://github.githubassets.com/images/icons/emoji/unicode/2714.png"> | <img height="15" width="15" src="https://github.githubassets.com/images/icons/emoji/unicode/2796.png"> | <img height="15" width="15" src="https://github.githubassets.com/images/icons/emoji/unicode/2714.png"> | <img height="15" width="15" src="https://github.githubassets.com/images/icons/emoji/unicode/2714.png"> |
+| Server: Automatic HTTPS[*](#server-automatic-https) | <img height="15" width="15" src="https://github.githubassets.com/images/icons/emoji/unicode/2714.png"> | ❔| <img height="15" width="15" src="https://github.githubassets.com/images/icons/emoji/unicode/2796.png"> | <img height="15" width="15" src="https://github.githubassets.com/images/icons/emoji/unicode/2714.png"> | <img height="15" width="15" src="https://github.githubassets.com/images/icons/emoji/unicode/2796.png"> |
+| Server: Gracefully Shutdown[*](#server-gracefully-shutdown) | <img height="15" width="15" src="https://github.githubassets.com/images/icons/emoji/unicode/2714.png"> | <img height="15" width="15" src="https://github.githubassets.com/images/icons/emoji/unicode/2714.png"> | <img height="15" width="15" src="https://github.githubassets.com/images/icons/emoji/unicode/2714.png"> | <img height="15" width="15" src="https://github.githubassets.com/images/icons/emoji/unicode/2796.png"> | <img height="15" width="15" src="https://github.githubassets.com/images/icons/emoji/unicode/2796.png"> |
+| Server: Multi Listeners[*](#server-multi-listeners) | <img height="15" width="15" src="https://github.githubassets.com/images/icons/emoji/unicode/2714.png"> | <img height="15" width="15" src="https://github.githubassets.com/images/icons/emoji/unicode/2796.png"> | <img height="15" width="15" src="https://github.githubassets.com/images/icons/emoji/unicode/2796.png"> | <img height="15" width="15" src="https://github.githubassets.com/images/icons/emoji/unicode/2796.png"> | <img height="15" width="15" src="https://github.githubassets.com/images/icons/emoji/unicode/2796.png"> |
+| Full HTTP/2[*](#full-http2) | <img height="15" width="15" src="https://github.githubassets.com/images/icons/emoji/unicode/2714.png"> | ❔| ❔ | <img height="15" width="15" src="https://github.githubassets.com/images/icons/emoji/unicode/2714.png"> | standard |
+| Subdomains[*](#subdomains) | <img height="15" width="15" src="https://github.githubassets.com/images/icons/emoji/unicode/2714.png"> | secondary | secondary |  secondary |  secondary |
+| Sessions[*](#sessions) | <img height="15" width="15" src="https://github.githubassets.com/images/icons/emoji/unicode/2714.png"> | <img height="15" width="15" src="https://github.githubassets.com/images/icons/emoji/unicode/2714.png"> | <img height="15" width="15" src="https://github.githubassets.com/images/icons/emoji/unicode/2714.png"> | <img height="15" width="15" src="https://github.githubassets.com/images/icons/emoji/unicode/2796.png"> | <img height="15" width="15" src="https://github.githubassets.com/images/icons/emoji/unicode/2796.png"> |
+| Websockets[*](#websockets) | <img height="15" width="15" src="https://github.githubassets.com/images/icons/emoji/unicode/2714.png"> | <img height="15" width="15" src="https://github.githubassets.com/images/icons/emoji/unicode/2714.png"> | <img height="15" width="15" src="https://github.githubassets.com/images/icons/emoji/unicode/2714.png"> | <img height="15" width="15" src="https://github.githubassets.com/images/icons/emoji/unicode/2796.png"> | <img height="15" width="15" src="https://github.githubassets.com/images/icons/emoji/unicode/2796.png"> |
+| View (aka Templates) Embedded Into App[*](#view-aka-templates-embedded-into-app) | <img height="15" width="15" src="https://github.githubassets.com/images/icons/emoji/unicode/2714.png"> | <img height="15" width="15" src="https://github.githubassets.com/images/icons/emoji/unicode/2796.png"> | <img height="15" width="15" src="https://github.githubassets.com/images/icons/emoji/unicode/2796.png"> | <img height="15" width="15" src="https://github.githubassets.com/images/icons/emoji/unicode/2796.png"> | <img height="15" width="15" src="https://github.githubassets.com/images/icons/emoji/unicode/2796.png"> |
+| View Engine: STD[*](#view-engine-std) | <img height="15" width="15" src="https://github.githubassets.com/images/icons/emoji/unicode/2714.png"> | <img height="15" width="15" src="https://github.githubassets.com/images/icons/emoji/unicode/2714.png"> | <img height="15" width="15" src="https://github.githubassets.com/images/icons/emoji/unicode/2714.png"> | <img height="15" width="15" src="https://github.githubassets.com/images/icons/emoji/unicode/2714.png"> | <img height="15" width="15" src="https://github.githubassets.com/images/icons/emoji/unicode/2714.png"> |
+| View Engine: Pug[*](#view-engine-pug) | <img height="15" width="15" src="https://github.githubassets.com/images/icons/emoji/unicode/2714.png"> | <img height="15" width="15" src="https://github.githubassets.com/images/icons/emoji/unicode/2796.png"> | <img height="15" width="15" src="https://github.githubassets.com/images/icons/emoji/unicode/2796.png"> | <img height="15" width="15" src="https://github.githubassets.com/images/icons/emoji/unicode/2796.png"> | <img height="15" width="15" src="https://github.githubassets.com/images/icons/emoji/unicode/2796.png"> |
+| View Engine: Django[*](#view-engine-django) | <img height="15" width="15" src="https://github.githubassets.com/images/icons/emoji/unicode/2714.png"> | <img height="15" width="15" src="https://github.githubassets.com/images/icons/emoji/unicode/2796.png"> | <img height="15" width="15" src="https://github.githubassets.com/images/icons/emoji/unicode/2796.png"> | <img height="15" width="15" src="https://github.githubassets.com/images/icons/emoji/unicode/2796.png"> | <img height="15" width="15" src="https://github.githubassets.com/images/icons/emoji/unicode/2796.png"> |
+| View Engine: Handlebars[*](#view-engine-handlebars) | <img height="15" width="15" src="https://github.githubassets.com/images/icons/emoji/unicode/2714.png"> | <img height="15" width="15" src="https://github.githubassets.com/images/icons/emoji/unicode/2796.png"> | <img height="15" width="15" src="https://github.githubassets.com/images/icons/emoji/unicode/2796.png"> | <img height="15" width="15" src="https://github.githubassets.com/images/icons/emoji/unicode/2796.png"> | <img height="15" width="15" src="https://github.githubassets.com/images/icons/emoji/unicode/2796.png"> |
+| View Engine: Amber[*](#view-engine-amber) | <img height="15" width="15" src="https://github.githubassets.com/images/icons/emoji/unicode/2714.png"> | <img height="15" width="15" src="https://github.githubassets.com/images/icons/emoji/unicode/2796.png"> | <img height="15" width="15" src="https://github.githubassets.com/images/icons/emoji/unicode/2796.png"> | <img height="15" width="15" src="https://github.githubassets.com/images/icons/emoji/unicode/2796.png"> | <img height="15" width="15" src="https://github.githubassets.com/images/icons/emoji/unicode/2796.png"> |
+| Renderer: Markdown, JSON, JSONP, XML...[*](#renderer-markdown-json-jsonp-xml) | <img height="15" width="15" src="https://github.githubassets.com/images/icons/emoji/unicode/2714.png"> | <img height="15" width="15" src="https://github.githubassets.com/images/icons/emoji/unicode/2714.png"> | <img height="15" width="15" src="https://github.githubassets.com/images/icons/emoji/unicode/2714.png"> |  <img height="15" width="15" src="https://github.githubassets.com/images/icons/emoji/unicode/2714.png"> |  <img height="15" width="15" src="https://github.githubassets.com/images/icons/emoji/unicode/2714.png"> |
+| MVC[*](#mvc) | <img height="15" width="15" src="https://github.githubassets.com/images/icons/emoji/unicode/2714.png"> | <img height="15" width="15" src="https://github.githubassets.com/images/icons/emoji/unicode/2714.png">- | generator | <img height="15" width="15" src="https://github.githubassets.com/images/icons/emoji/unicode/2796.png"> | <img height="15" width="15" src="https://github.githubassets.com/images/icons/emoji/unicode/2796.png"> |
+| Caching[*](#catching) | <img height="15" width="15" src="https://github.githubassets.com/images/icons/emoji/unicode/2714.png">| <img height="15" width="15" src="https://github.githubassets.com/images/icons/emoji/unicode/2714.png"> | <img height="15" width="15" src="https://github.githubassets.com/images/icons/emoji/unicode/2714.png"> |  <img height="15" width="15" src="https://github.githubassets.com/images/icons/emoji/unicode/2796.png"> |  
+| File Server[*](#file-server) | <img height="15" width="15" src="https://github.githubassets.com/images/icons/emoji/unicode/2714.png"> | <img height="15" width="15" src="https://github.githubassets.com/images/icons/emoji/unicode/2714.png"> | <img height="15" width="15" src="https://github.githubassets.com/images/icons/emoji/unicode/2714.png"> |  <img height="15" width="15" src="https://github.githubassets.com/images/icons/emoji/unicode/2714.png"> |  <img height="15" width="15" src="https://github.githubassets.com/images/icons/emoji/unicode/2714.png"> |
+| File Server: Embedded Into App[*](#file-server-embedded-into-app) | <img height="15" width="15" src="https://github.githubassets.com/images/icons/emoji/unicode/2714.png"> | <img height="15" width="15" src="https://github.githubassets.com/images/icons/emoji/unicode/2796.png"> | <img height="15" width="15" src="https://github.githubassets.com/images/icons/emoji/unicode/2796.png"> |  <img height="15" width="15" src="https://github.githubassets.com/images/icons/emoji/unicode/2796.png"> | <img height="15" width="15" src="https://github.githubassets.com/images/icons/emoji/unicode/2796.png"> | 
+| Response can be Modified Many times through lifecycle before sent[*](#response-can-be-modified-many-times-through-lifecycle-before-sent) | <img height="15" width="15" src="https://github.githubassets.com/images/icons/emoji/unicode/2714.png"> | <img height="15" width="15" src="https://github.githubassets.com/images/icons/emoji/unicode/2796.png"> | <img height="15" width="15" src="https://github.githubassets.com/images/icons/emoji/unicode/2796.png"> |  <img height="15" width="15" src="https://github.githubassets.com/images/icons/emoji/unicode/2796.png"> |  <img height="15" width="15" src="https://github.githubassets.com/images/icons/emoji/unicode/2796.png"> |
+| Gzip[*](#gzip) | <img height="15" width="15" src="https://github.githubassets.com/images/icons/emoji/unicode/2714.png"> | <img height="15" width="15" src="https://github.githubassets.com/images/icons/emoji/unicode/2714.png"> | <img height="15" width="15" src="https://github.githubassets.com/images/icons/emoji/unicode/2714.png"> | middleware | middleware |
+| Testing Framework[*](#testing-framework) | <img height="15" width="15" src="https://github.githubassets.com/images/icons/emoji/unicode/2714.png"> | <img height="15" width="15" src="https://github.githubassets.com/images/icons/emoji/unicode/2796.png"> | <img height="15" width="15" src="https://github.githubassets.com/images/icons/emoji/unicode/2796.png"> | <img height="15" width="15" src="https://github.githubassets.com/images/icons/emoji/unicode/2796.png"> | <img height="15" width="15" src="https://github.githubassets.com/images/icons/emoji/unicode/2796.png"> |
+| Typescript Transpiler[*](#typescript-transpiler) | <img height="15" width="15" src="https://github.githubassets.com/images/icons/emoji/unicode/2714.png"> | <img height="15" width="15" src="https://github.githubassets.com/images/icons/emoji/unicode/2796.png"> | <img height="15" width="15" src="https://github.githubassets.com/images/icons/emoji/unicode/2796.png"> | <img height="15" width="15" src="https://github.githubassets.com/images/icons/emoji/unicode/2796.png"> | <img height="15" width="15" src="https://github.githubassets.com/images/icons/emoji/unicode/2796.png"> |
+| Online Editor[*](#online-editor) | <img height="15" width="15" src="https://github.githubassets.com/images/icons/emoji/unicode/2714.png"> | <img height="15" width="15" src="https://github.githubassets.com/images/icons/emoji/unicode/2796.png"> | <img height="15" width="15" src="https://github.githubassets.com/images/icons/emoji/unicode/2796.png"> | <img height="15" width="15" src="https://github.githubassets.com/images/icons/emoji/unicode/2796.png"> | <img height="15" width="15" src="https://github.githubassets.com/images/icons/emoji/unicode/2796.png"> | 
+| Logging System[*](#logging-system) | <img height="15" width="15" src="https://github.githubassets.com/images/icons/emoji/unicode/2714.png"> | <img height="15" width="15" src="https://github.githubassets.com/images/icons/emoji/unicode/2714.png"> | <img height="15" width="15" src="https://github.githubassets.com/images/icons/emoji/unicode/2714.png"> | <img height="15" width="15" src="https://github.githubassets.com/images/icons/emoji/unicode/2714.png">- | <img height="15" width="15" src="https://github.githubassets.com/images/icons/emoji/unicode/2714.png">- |
+| Maintenance & Auto-Updates[*](#maintenance--auto-updates) | <img height="15" width="15" src="https://github.githubassets.com/images/icons/emoji/unicode/2714.png"> | <img height="15" width="15" src="https://github.githubassets.com/images/icons/emoji/unicode/2796.png"> | <img height="15" width="15" src="https://github.githubassets.com/images/icons/emoji/unicode/2796.png"> | <img height="15" width="15" src="https://github.githubassets.com/images/icons/emoji/unicode/2796.png"> | <img height="15" width="15" src="https://github.githubassets.com/images/icons/emoji/unicode/2796.png"> | 
+| Performance | ★★★★★ | ★★★ | ★★ | ★★★★★ | ★★★★★ |
 
 ```
 The most known "Web frameworks" in Go are not really frameworks, meaning that:
@@ -126,6 +125,7 @@ All of the above frameworks, except Beego and Revel, can adapt any middleware
 that was created for net/http, some of those can do this with ease and others
 with some hacking [even the pain is a choice here].
 ```
+
 ## Vocabulary
 
 ### Router: Named Path Parameters & Wildcard
@@ -133,18 +133,21 @@ with some hacking [even the pain is a choice here].
 When you can register a handler to a route with dynamic path.
 
 Example Named Path Parameter:
-```
+
+```go
 "/user/{username}" matches to "/user/me", "/user/speedwheel" etc
 ```
 
 The `username` path parameter's value is the `"/me"` and `"speedwheel"` respectfully.
 
 Example Wildcard:
-```
+
+```go
 "/user/{path *wildcard}" matches to
 "/user/some/path/here",
 "/user/this/is/a/dynamic/multi/level/path" etc
 ```
+
 The `path` path parameter's value is the `"some/path/here"` and `"this/is/a/dynamic/multi/level/path"` respectfully.
 
 > Iris supports a feature called `macros` as well, can be described as `/user/{username:string}` or `/user/{username:int min(1)}`.
@@ -155,7 +158,8 @@ When you can register a handler to a route with dynamic path
 with filters some that should be passed in order to execute the handler.
 
 Example:
-```
+
+```go
 "/user/{id ^[0-9]$}" matches to "/user/42" but not to "/user/somestring"
 ```
 
@@ -166,7 +170,8 @@ The `id` path parametert's value is `42`.
 When you can register common logic or middleware/handlers to a specific group of routes that share the same path prefix.
 
 Example:
-```
+
+```go
 myGroup := Group("/user", userAuthenticationMiddleware)
 myGroup.Handle("GET", "/", userHandler)
 myGroup.Handle("GET", "/profile", userProfileHandler)
@@ -178,10 +183,12 @@ myGroup.Handle("GET", "/signup", getUserSignupForm)
 - /user/signup
 
 You can even create subgroups from a group:
-```
+
+```go
 myGroup.Group("/messages", optionalUserMessagesMiddleware)
 myGroup.Handle("GET', "/{id}", getMessageByID)
 ```
+
 - /user/messages/{id}
 
 ### Router: All the above Mixed Without Conflict
@@ -195,7 +202,8 @@ It means that something like `/{path *wildcard}` and `/user/{username}` and `/us
 When you can reigster a handler for an "error" status code. An error http status code is a `>=400` status code, i.e `NotFound 404`.
 
 Example:
-```
+
+```go
 OnErrorCode(404, myNotFoundHandler)
 ```
 
@@ -204,19 +212,21 @@ Most of the web frameworks above support only `404`, `405` and `500` registratio
 ### 100% compatible with net/http
 
 Means that you have:
+
 - the framework gives you a context with direct access to the `*http.Request` and `http.ResponseWriter`.
 - a way to convert an `net/http` handler to a specific framework's type of Handler.
 
 ### Middleware ecosystem
 
-When you don't have to wrap each handlers with middleware by your own, but the framework gives you a full engine to define the flow, globally or per route or per group of routes, i.e `Use(middleware)`, `Done(middleware`) etc. 
+When you don't have to wrap each handlers with middleware by your own, but the framework gives you a full engine to define the flow, globally or per route or per group of routes, i.e `Use(middleware)`, `Done(middleware`) etc.
 
 ### Sinatra-like API
 
 Register in runtime handlers to routes for specific HTTP Methods (and path parameters).
 
 Example:
-```
+
+```go
 .Get or GET("/path", gethandler)
 .Post or POST("/path", postHandler)
 .Put or PUT("/path", putHandler) and etc.
@@ -224,7 +234,7 @@ Example:
 
 ### Server: Automatic HTTPS
 
-When the framework's server supports registering and auto-renewing the SSL certifications to manage the SSL/TLS incoming connections (https). The most famous automatic https provider is the [letsencrypt](https://letsencrypt.org/). 
+When the framework's server supports registering and auto-renewing the SSL certifications to manage the SSL/TLS incoming connections (https). The most famous automatic https provider is the [letsencrypt](https://letsencrypt.org/).
 
 ### Server: Gracefully Shutdown
 
@@ -252,7 +262,8 @@ When http sessions are supported and ready to use inside your specific handler(s
 - Buffalo uses the gorilla sessions, which are little bit slower than the rest of the implementations.
 
 Example:
-```
+
+```go
 func setValue(context http_context){
     s := Sessions.New(http_context)
     s.Set("key", "my value")
@@ -268,16 +279,15 @@ func logoutHandler(context http_context){
 }
 ```
 
-Wiki: https://en.wikipedia.org/wiki/Hypertext_Transfer_Protocol#HTTP_session
+Wiki: [https://en.wikipedia.org/wiki/Hypertext_Transfer_Protocol#HTTP_session](https://en.wikipedia.org/wiki/Hypertext_Transfer_Protocol#HTTP_session)
 
 ### Websockets
 
-When the framework supports websocket communications protocol. The implementations are different. 
+When the framework supports websocket communications protocol. The implementations are different.
 
 You should search their examples to see what suits you. My co-worker who tried all of those told me that Iris  implements the most featured webosocket connections with the easier API compared to the rest.
 
-Wiki: https://en.wikipedia.org/wiki/WebSocket
-
+Wiki: [https://en.wikipedia.org/wiki/WebSocket](https://en.wikipedia.org/wiki/WebSocket)
 
 ### View (aka Templates) Embedded Into App
 
@@ -285,7 +295,7 @@ Normally you have to transfer all of your template files side by side with your 
 
 #### What is a view engine
 
-When the framework supports template loading, custom and built'n template functions to save our lives on critical parts. 
+When the framework supports template loading, custom and built'n template functions to save our lives on critical parts.
 
 ### View Engine: STD
 
@@ -319,13 +329,13 @@ Model–view–controller (MVC) is a software architectural pattern for implemen
 - Beego supports only method and models matching, can be registered at runtime.
 - Revel supports methods, path and models matching, can be registered only via a generator (a different software that you have to run to build your web application).
 
-Wiki: https://en.wikipedia.org/wiki/Model%E2%80%93view%E2%80%93controller
+Wiki: [https://en.wikipedia.org/wiki/Model%E2%80%93view%E2%80%93controller](https://en.wikipedia.org/wiki/Model%E2%80%93view%E2%80%93controller)
 
 ### Caching
 
 A web cache (or HTTP cache) is an information technology for the temporary storage (caching) of web documents, such as HTML pages and images, to reduce server lag. A web cache system documents passing through it; subsequent requests may be satisfied from if certain conditions are met.[1] A web cache system can refer either to an appliance, or to a computer program.
 
-Wiki: https://en.wikipedia.org/wiki/Web_cache
+Wiki: [https://en.wikipedia.org/wiki/Web_cache](https://en.wikipedia.org/wiki/Web_cache)
 
 ### File Server
 
@@ -347,21 +357,23 @@ When you're inside a route's handler and you can change the response writer in o
 
 > gzip is a file format and a software application used for file compression and decompression
 
-Wiki: https://en.wikipedia.org/wiki/Gzip
+Wiki: [https://en.wikipedia.org/wiki/Gzip](https://en.wikipedia.org/wiki/Gzip)
 
 ### Testing Framework
 
 When you can test your HTTP using a specific framework library, that its work is to help you write better tests with ease.
 
 Example (currently, only Iris supports that)
-```
+
+```go
 func TestAPI(t *testing.T) {
-    app := myIrisApp() 
+    app := myIrisApp()
     tt := httptest.New(t, app)
     tt.GET("/admin").WithBasicAuth("name", "pass").Expect().
     Status(httptest.StatusOK).Body().Equal("welcome")
 }
 ```
+
 `myIrisApp` returns your imaginary web application,
 it has got a GET handler for `/admin` which is protected by basic authentication.
 
@@ -388,10 +400,10 @@ Inform users of your framework of "on the fly "updates in a non-intrusive way.
 - Fork the project.
 - Make your changes.
 - Make a PR and describe it:
-    * If something is modified from the existing comparison, tell us the reason that made you to change that.
-    * If a feature is added, then add an issue link that describes the feature for the specific framework.
+  - If something is modified from the existing comparison, tell us the reason that made you to change that.
+  - If a feature is added, then add an issue link that describes the feature for the specific framework.
 - Push the PR.
 
 # License
 
-The MIT [License](https://github.com/speedwheel/awesome-go-web-frameworks/blob/master/LICENSE).
+![GitHub](https://img.shields.io/github/license/speedwheel/awesome-go-web-frameworks?style=for-the-badge)
