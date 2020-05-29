@@ -36,6 +36,10 @@ The repository contains the most detailed framework comparison that is out there
 * https://github.com/labstack/echo
 * https://echo.labstack.com
 
+**Fiber**: _⚡️ Fiber is an Express inspired web framework written in Go with ☕️_
+* https://github.com/gofiber/fiber
+* https://gofiber.io
+
 **Gin**: _HTTP web framework written in Go (Golang). It features a Martini-like API with much better performance._
 * https://github.com/gin-gonic/gin
 * https://gin-gonic.github.io/gin
@@ -59,6 +63,7 @@ The repository contains the most detailed framework comparison that is out there
 | Iris | 13,565 | 1,406 | 19 |  621 | 2016 | 2019-01-16 | [@kataras](https://github.com/kataras) |
 | Echo | 12,861 | 1,141 | 14 |  779 |  2015 | 2019-02-07 | [@vishr](https://github.com/vishr) |
 | Revel | 10,723 | 1,302 | 58 |  806 | 2011 | 2018-10-30 | [@revel](https://github.com/revel) |
+| Fiber | 5,577 | 200 | 2 |  136 | 2020 | 2020-05-29 | [@fenny](https://github.com/fenny) |
 | Buffalo | 3,935 | 320 | 51 |  599 |  2014 | 2019-01-31 | [@markbates](https://github.com/markbates) |
 
 ## Learning Curve
@@ -67,6 +72,7 @@ Name | Examples | Reference | Real time support |
 |---|:---:|---|---|
 | Iris | 92 | https://github.com/kataras/iris/tree/master/_examples | [rocket chat](https://chat.iris-go.com) |
 | Beego | 49 | https://beego.me/docs | |
+| Fiber | 22 | https://github.com/gofiber/recipes | [discord](https://gofiber.io/discord) |
 | Echo | 20 | https://echo.labstack.com/cookbook/hello-world | |
 | Gin | 15 | https://github.com/gin-gonic/gin/tree/master/examples | [gitter](https://gitter.im/gin-gonic/gin) |
 | Revel | 6 | http://revel.github.io/examples/index.html | [gitter](https://gitter.im/revel/community) |
@@ -78,8 +84,8 @@ Great job by astaxie and kataras here, hopfully and the other frameworks will ca
 
 > Sorted by the most to less featured
 
-| Name |Iris|Beego|Revel|Echo|Gin|Buffalo|
-|:---|:---:|:---:|:---:|:---:|:---:|:---:|
+| Name |Iris|Fiber|Beego|Revel|Echo|Gin|Buffalo|
+|:---|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
 | Router: Named Path Parameters & Wildcard[*](#router-named-path-parameters--wildcard) | <img height="15" width="15" src="https://github.githubassets.com/images/icons/emoji/unicode/2714.png"> | <img height="15" width="15" src="https://github.githubassets.com/images/icons/emoji/unicode/2714.png"> | <img height="15" width="15" src="https://github.githubassets.com/images/icons/emoji/unicode/2714.png"> | <img height="15" width="15" src="https://github.githubassets.com/images/icons/emoji/unicode/2714.png"> | <img height="15" width="15" src="https://github.githubassets.com/images/icons/emoji/unicode/2714.png"> | <img height="15" width="15" src="https://github.githubassets.com/images/icons/emoji/unicode/2714.png">- |
 | Router: Regex[*](#router-regex) | <img height="15" width="15" src="https://github.githubassets.com/images/icons/emoji/unicode/2714.png"> | <img height="15" width="15" src="https://github.githubassets.com/images/icons/emoji/unicode/2714.png"> | <img height="15" width="15" src="https://github.githubassets.com/images/icons/emoji/unicode/2796.png"> | <img height="15" width="15" src="https://github.githubassets.com/images/icons/emoji/unicode/2796.png">  | <img height="15" width="15" src="https://github.githubassets.com/images/icons/emoji/unicode/2796.png"> | <img height="15" width="15" src="https://github.githubassets.com/images/icons/emoji/unicode/2714.png">- |
 | Router: Grouping[*](#router-grouping) | <img height="15" width="15" src="https://github.githubassets.com/images/icons/emoji/unicode/2714.png"> | ❔ | ❔ | <img height="15" width="15" src="https://github.githubassets.com/images/icons/emoji/unicode/2714.png"> | <img height="15" width="15" src="https://github.githubassets.com/images/icons/emoji/unicode/2714.png"> | <img height="15" width="15" src="https://github.githubassets.com/images/icons/emoji/unicode/2714.png">- |
